@@ -266,3 +266,21 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.btn {
+  width: 200px;
+  height: 45px;
+  background-color: #17A2B8;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+.btn:hover {
+  color: #17A2B8;
+  background-color: #FFFFFF;
+  border: 1px solid #17A2B8;
+}
