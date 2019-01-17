@@ -410,3 +410,9 @@ img {
     width: 70%;
   }
 }
+.field-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
