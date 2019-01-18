@@ -1,1 +1,33 @@
 // Navigation Styles here
+.flexNav {
+	.custom-layout(space-evenly, center);
+	/*border: @showMe;*/
+	width: 50%;
+
+	@media @mobile {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%;
+		/*border: @showMe;*/
+	}
+
+	a {
+		text-decoration: none;
+		color: @shark;
+		font-size: 1.5rem;
+
+		@media @mobile {
+			margin-top: 2%;
+		}
+
+		&:last-child {
+			margin-right: 10%;
+
+			@media @mobile {
+				margin-right: 0;
+			}
+		}
+	}
+
+	}
